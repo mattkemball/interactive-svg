@@ -15,3 +15,38 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+#left-eye {
+	animation: move 2s linear alternate infinite;
+}
+
+#right-eye {
+	animation: move 2s linear alternate infinite;
+}
+
+@keyframes move {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+#left-ear {
+	transition: all 1s linear;
+}
+
+#bear:hover #left-ear {
+	transform: translateY(-10px);
+}
+
+#right-ear {
+	transition: all 1s linear;
+}
+
+#bear:hover #right-ear {
+	transform: translateY(-10px);
+}
