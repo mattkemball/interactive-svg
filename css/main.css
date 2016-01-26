@@ -17,17 +17,17 @@ html {
 }
 
 #left-eye {
-	animation: move 2s linear alternate infinite;
+  animation: move 2s linear alternate infinite;
 }
 
 #right-eye {
-	animation: move 2s linear alternate infinite;
+  animation: move 2s linear alternate infinite;
 }
 
 @keyframes move {
 
   0% {
-    transform: translateX(-10px);
+	  transform: translateX(-10px);
   }
 
   100% {
@@ -36,17 +36,37 @@ html {
 }
 
 #left-ear {
-	transition: all 1s linear;
+  transition: all 1s linear;
 }
 
 #bear:hover #left-ear {
-	transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 #right-ear {
-	transition: all 1s linear;
+  transition: all 1s linear;
 }
 
 #bear:hover #right-ear {
-	transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.st0{
+  fill:#673200;
+} 
+
+.st1{
+  fill:#FFAACA;
+} 
+
+.st2{
+  fill:#C65B00;
+} 
+
+.st3{
+  fill:none;
+  stroke:#000000;
+  stroke-width:3;
+  stroke-linecap:round;stroke-linejoin:round;
+  stroke-miterlimit:10;
 }
